@@ -1,0 +1,41 @@
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/quienes.css" type="text/css"/>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="/quienes.js" type="text/javascript"></script>
+    <title>Maag</title>
+
+    <body background="/background.jpg">
+
+
+<div id="header">
+    <nav>
+        <ul class="menu">
+            <li><a href="http://maag.xyz/">Inicio</a></li>
+
+                    <li><a href="http://maag.xyz/ban">Seguidos baneados</a></li>
+                    <li><a href="http://maag.xyz/contact">Contact</a></li>
+                    <li><a href="http://maag.xyz/bot">Estado Del Bot</a></li>
+            </li>
+
+        </ul>
+    </nav>
+</div>
+
+<div class="page">
+    <div class="content">
+        <h1 style="text-align: center;">Quienes no te siguen.</h1>
+        <p>Ingresa tu nombre de usuario y te muestro una lista de los usuarios que no te siguen y que vos seguis.</p>
+
+        <input id="input-text" placeholder="Usuario..."/>
+        <input type="button" id="btn-send" value="Confirmar"/>
+        <div id="info"></div>
+        <div id="ban-content">
+            <img src="/loader.gif" class="loader" style="display: none"/>
+            <ul id="baneados">
+
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

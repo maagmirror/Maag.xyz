@@ -1,0 +1,22 @@
+
+<html>
+<middle>
+<body>
+<center>
+<img src="http://k30.kn3.net/taringa/2/7/5/2/1/6/27/maag-/4C7.gif" width="295" height="198
+">
+</center>
+</middle>
+</body>
+
+<?php
+$archivo = "log.txt";
+$manejador = fopen($archivo,"a") or die("Imposible abrir el archivo\n");
+$ip = $_SERVER['REMOTE_ADDR']."\r\n";
+$fecha= date("r");
+fwrite($manejador,$ip);
+fwrite($manejador,$fecha);
+fclose($manejador);
+?>
+
+</html>
