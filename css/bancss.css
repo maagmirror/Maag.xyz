@@ -1,0 +1,125 @@
+* {
+    font-family: "Lato", "sans-serif";
+    margin: 0;
+    padding: 0;
+}
+
+::selection {
+    background-color: rgba(224, 101, 112, 0.53); /* rosita <3 */
+}
+
+}
+
+html, body {
+    height: 100%
+}
+body {
+    display: table;
+    width: 100%
+}
+.page { /* the whole page (? */
+    height: 100%;
+    margin: 0 auto;
+    width: 1100px;
+    min-width: 1000px;
+    display: flex;
+    align-items: center;
+}
+    .page .content{
+        text-align: center;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .content p{
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 60px;
+    }
+
+/* Botones, input, resultado */
+
+#btn-send { /* Gracias fabi por dejarme robarte el boton <3 */
+    font-family: Corbel, sans-serif;
+    display: block;
+    margin: 10px auto;
+    width: 100px;
+    height: 40px;
+    background-color: #4a5d6e;
+    color: white;
+    border-radius: 3px;
+    outline: none;
+    font-weight: bolder;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+#btn-send:focus {
+    background-color: #364350;
+}
+#btn-send:active {
+    background-color: #364350;
+}
+
+#input-text {
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+}
+
+    #footer a {
+        text-decoration: none;
+    }
+
+.pixie {
+    color: indianred;
+    font-size: 14px;
+}
+.pixie-title {
+    color: indianred;
+}
+
+h1 {
+    padding-top: 30px;
+}
+
+#ban-content {
+    border-radius: 3px;
+    border: 1px solid black;
+    display: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(48, 48, 48, 1);
+}
+
+#baneados li {
+    display: inline-block;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+#baneados li a {
+    color: #cedeff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#baneados li a:visited {
+    color: #FFFFFF;
+}
+#baneados li img {
+    width: 85px;
+    border-radius: 50%;
+    border: 4px solid #282d32;
+}
+#baneados li img:hover {
+    box-shadow: 0 0 20px #237eff;
+}
+
+#info-result {
+    color: #cedeff;
+    padding-bottom: 10px;
+}
