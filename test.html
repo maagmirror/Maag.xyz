@@ -1,18 +1,21 @@
-<head>
-	<title>404 not found </title>
-<link rel="stylesheet" href="/css/404.css" type="text/css">
-<link rel="stylesheet" href="/css/letters.css" type="text/css">
-</head>
-<body>
-<div id="main-box" class="fg-video centered">
-<h1>404 not found</h1>
-<p class="lead">Esta página no existe.</p>
-<a href="/" class="btn btn-reverse btn-huge">Volver</a>
-<div class="centered">
-<video class="bg-video" autoplay loop muted style="background-image:url(https://k30.kn3.net/taringa/6/D/5/3/F/3/vagonettas/73F.gif)">
-</video>
-<div class="bg-video-overlay"></div>
-</div>
-</div>
-</body>
-</html>
+<SCRIPT>
+function passWord() {
+var testV = 1;
+var pass1 = prompt('Enter Your Password',' ');
+while (testV < 3) {
+if (!pass1) 
+history.go(-1);
+if (pass1.toLowerCase() == "Guest") {
+alert('Password Correct');
+window.open("Yournextpage.html");
+break;
+} 
+testV+=1;
+var pass1 = 
+prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+}
+if (pass1.toLowerCase()!="password" & testV ==3) 
+history.go(-1);
+return " ";
+} 
+</SCRIPT>
