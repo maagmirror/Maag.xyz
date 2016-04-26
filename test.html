@@ -1,0 +1,33 @@
+<script language="javascript">
+//aqui sacamos un valor aleatorio respecto al numero de imagenes
+var imagen = (Math.random() * 3)+1;
+//obtenemos solo la parte entera
+imagen = parseInt(imagen);
+//aqui seleccionamos el caso de la imagen
+switch (imagen) {
+	case 1: document.write("[img]imagen1.jpg[/img]");
+	break;
+	case 2: document.write("[img]imagen2.jpg[/img]");
+	break;
+	case 3: document.write("[img]imagen3.jpg[/img]");
+	break;
+}
+</script>
+
+<head>
+<title>404 nnot found</title>
+</head>
+<body>
+<div id="main-box" class="fg-video centered">
+<h1>Oops!</h1>
+<p class="lead">Cubetto y sus amigos están jugando a la Play.</p>
+<a href="/" class="btn btn-reverse btn-huge">Volver</a>
+<div class="centered">
+<video class="bg-video" autoplay loop muted style="background-image:url(http://media0.giphy.com/media/GsST2Hd3HTztm/giphy.gif)">
+<source type="video/mp4" src="http://media0.giphy.com/media/GsST2Hd3HTztm/giphy.mp4">
+</video>
+<div class="bg-video-overlay"></div>
+</div>
+</div>
+</body>
+</html>
