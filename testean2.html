@@ -62,36 +62,7 @@
 	<!-- END GOOGLE ANALYTICS -->
 		
 	<div class="fleft width-33 fsize-3">
-		<h1>2 - Playa Pocitos</h1>
-				<div class="line invisible"></div>
-	</div>
-	<div class="fleft width-33 fsize-3 prelative">
-		<!-- START WEATHER APP -->
-		<div id="extra-info" ng-app="extra-info" ng-controller="ExtraInfoCtrl" ng-cloak>
-			<div class="container ohidden">
-				<img class="fleft" ng-src="{{weatherInfo.icon_url}}" title="{{weatherInfo.tooltips.weather_icon}}" />
-				<div class="fleft acenter" style="width: 64px" title="{{weatherInfo.tooltips.temperature}}">
-					<span class="curr-temp">{{weatherInfo.temp_c}}{{weatherInfo.c_unit}}</span>
-				</div>
-				<div class="divider"></div>
-				<div class="fleft" title="{{weatherInfo.tooltips.max_min}}">
-					<!-- <img class="max-min fleft" ng-src="{{weatherInfo.high_icon}}" /> -->
-					<span class="max-min fright fbold" style="color:#FFBB96">{{weatherInfo.high_temp_c}}{{weatherInfo.c_unit}}</span>
-					<div class="cleft"></div>
-					<!-- <img class="max-min fleft" ng-src="{{weatherInfo.low_icon}}" /> -->
-					<span class="max-min fright fbold" style="color:#A3DDFF">{{weatherInfo.low_temp_c}}{{weatherInfo.c_unit}}</span>
-					<div class="cleft"></div>
-				</div>
-				<div class="divider"></div>
-				<div class="fleft" title="{{time | date:'dd/MM/yyyy HH:mm:ss'}}">
-					<span class="date-time fright">{{time | date:"dd/MM"}}</span>
-					<div class="cright"></div>
-					<span class="date-time fright">{{time | date:"HH:mm"}}</span>
-				</div>
-				<div class="divider"></div>
-				<div class="fleft" title="{{weatherInfo.tooltips.sun_moon}}">
-					<span class="day-night-icon" ></span>
-				</div>
+	
 				<div class="cboth"></div>
 			</div>
 		<!-- <a class="fleft icon less pabsolute" style="top:2px; left: 0px; display: none;" ng-click="hide()"></a> -->
