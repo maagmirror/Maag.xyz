@@ -1,8 +1,3 @@
-/**
- * Created by Dani on 7/1/2016.
- */
-
-// Un dia despues de haberlo hecho me doy cuenta que lo puedo simplificar pero no tengo ganas.
 // todo: Quienes no me siguen
 
 function main() {
