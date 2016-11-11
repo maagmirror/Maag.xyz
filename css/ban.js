@@ -1,6 +1,3 @@
-/**
- * Created by Dani on 8/1/2016.
- */
 //todo: seguidos baneados
 
 function main() {
