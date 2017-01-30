@@ -4,6 +4,13 @@
     padding: 0;
 }
 
+#input-text {
+    color: black;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+}
+
 ::selection {
     background-color: rgba(224, 101, 112, 0.53); /* rosita <3 */
 }
