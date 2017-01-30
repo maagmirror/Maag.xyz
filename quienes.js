@@ -33,7 +33,7 @@ function main() {
             error: function(){
                 clean();
                 $('#ban-content p').remove();
-                $('#baneados').append('<p style="color: #cedeff; padding-bottom: 10px;"> Ingresa un puto usuario valido.</p>');
+                $('#baneados').append('<p style="color: #cedeff; padding-bottom: 10px;"> Ingresa un usuario valido.</p>');
             }
         });
         return dfd.promise()
