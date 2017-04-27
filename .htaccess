@@ -4,9 +4,9 @@ Options +FollowSymLinks
 
 RewriteEngine on
 
-RewriteRule ^index\.php/(.+)$ http://maagwashere.hol.es/ [R=301,L]
+RewriteRule ^index\.php/(.+)$ http://maag.xyz/ [R=301,L]
 
-RewriteCond %{HTTP_HOST} ^maagwashere.hol.es
+RewriteCond %{HTTP_HOST} ^maag.xyz
 RewriteRule ^ http://maag.xyz%{REQUEST_URI} [L,R=301]
 
 RewriteCond %{REQUEST_FILENAME} !-f
