@@ -2,6 +2,10 @@
 RewriteBase /
 Options +FollowSymLinks
 
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://www.maag.xyz/$1 [R,L]
+
 RewriteEngine on
 
 RewriteRule ^index\.php/(.+)$ https://maag.xyz/ [R=301,L]
