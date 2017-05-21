@@ -6,13 +6,6 @@ RewriteEngine On
 RewriteCond %{SERVER_PORT} 80 
 RewriteRule ^(.*)$ https://www.maag.xyz/$1 [R,L]
 
-RewriteEngine on
-
-RewriteRule ^index\.php/(.+)$ https://maag.xyz/ [R=301,L]
-
-RewriteCond %{HTTP_HOST} ^maag.xyz
-RewriteRule ^ https://maag.xyz%{REQUEST_URI} [L,R=301]
-
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^/]+)/$ $1.php
 RewriteRule ^([^/]+)/([^/]+)/$ /$1/$2.php
