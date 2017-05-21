@@ -3,6 +3,7 @@ RewriteBase /
 Options +FollowSymLinks
 
 RewriteEngine On 
+RewriteCond %{HTTP_HOST} ^maag\.xyz [NC]
 RewriteCond %{SERVER_PORT} 80 
 RewriteRule ^(.*)$ https://www.maag.xyz/$1 [R,L]
 
