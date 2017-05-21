@@ -4,10 +4,10 @@ Options +FollowSymLinks
 
 RewriteEngine on
 
-RewriteRule ^index\.php/(.+)$ http://maag.xyz/ [R=301,L]
+RewriteRule ^index\.php/(.+)$ https://maag.xyz/ [R=301,L]
 
 RewriteCond %{HTTP_HOST} ^maag.xyz
-RewriteRule ^ http://maag.xyz%{REQUEST_URI} [L,R=301]
+RewriteRule ^ https://maag.xyz%{REQUEST_URI} [L,R=301]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^/]+)/$ $1.php
